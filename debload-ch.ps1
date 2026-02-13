@@ -103,7 +103,25 @@ $apps = @(
     "Microsoft.Xbox*",
     "Microsoft.GetHelp",
     "Microsoft.Getstarted",
-    "Microsoft.WindowsFeedbackHub"
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.GetHelp",
+    "Microsoft.Getstarted",
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.ZuneMusic",
+    "Microsoft.ZuneVideo",
+    "Microsoft.BingNews",
+    "Microsoft.BingWeather",
+    "Microsoft.BingSports",
+    "Microsoft.BingFinance",
+    "Microsoft.Todos",
+    "Microsoft.MicrosoftSolitaireCollection",
+    "Microsoft.People",
+    "Microsoft.PowerAutomateDesktop",
+    "Microsoft.3DBuilder",
+    "Microsoft.MixedReality.Portal",
+    "Microsoft.MicrosoftOfficeHub",
+    "Microsoft.SkypeApp",
+    "Microsoft.MicrosoftStickyNotes"
 )
 Remove-AppxSafe $apps
 
